@@ -1,0 +1,18 @@
+== application crashed
+app name: The Tavern
+app version: 0.8
+build compiler: Visual Studio
+build date: Jan 29 2022
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Jan 30 2022 01:28:17
+exception: Access violation (0xc0000005)
+exception address: 0xfeb92b73
+  backtrace:
+    0: C:\The Tavern - Arquivos\cliente-cript\otclient.exe(DrawPool::draw+0x33) [0x00000000FEB92B73]
+    1: C:\The Tavern - Arquivos\cliente-cript\otclient.exe(GraphicalApplication::run+0x56e) [0x00000000FEB7D28E]
+    2: C:\The Tavern - Arquivos\cliente-cript\otclient.exe(main+0x598) [0x00000000FEC5C1C8]
+    3: C:\The Tavern - Arquivos\cliente-cript\otclient.exe(__scrt_common_main_seh+0x10c) [0x00000000FEC5CC28]
+    4: C:\Windows\System32\KERNEL32.DLL(BaseThreadInitThunk+0x14) [0x00000000C03B7034]
+    5: C:\Windows\SYSTEM32\ntdll.dll(RtlUserThreadStart+0x21) [0x00000000C1A62651]
+
